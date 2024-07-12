@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ace_tools"
+version = "0.1.0"
+description = "Open implementation of ace_tools referenced in GPT4o"
+readme = "README.md"
+requires-python = ">=3.6"
+license = { text = "MIT" }
+authors = [
+    { name = "ZincCat", email = "zincchloride@outlook.com" }
+]
+dependencies = ["pandas", "itables", "IPython"]
+
+[project.urls]
+"Homepage" = "https://github.com/zinccat/ace_tools"

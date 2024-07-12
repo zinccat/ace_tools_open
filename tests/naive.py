@@ -1,14 +1,3 @@
-# ace_tools
-Open implementation of ace_tools referenced in GPT4o.
-
-## Installation
-
-```bash
-pip install -e .
-```
-
-## Example
-```python
 import pandas as pd
 import numpy as np
 
@@ -23,4 +12,3 @@ data = {
 
 df = pd.DataFrame(data)
 import ace_tools as tools; tools.display_dataframe_to_user(name="Random DataFrame", dataframe=df)
-```
