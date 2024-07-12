@@ -11,4 +11,4 @@ data = {
 }
 
 df = pd.DataFrame(data)
-import ace_tools as tools; tools.display_dataframe_to_user(name="Random DataFrame", dataframe=df)
+import ace_tools_open as tools; tools.display_dataframe_to_user(name="Random DataFrame", dataframe=df)

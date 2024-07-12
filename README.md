@@ -1,10 +1,10 @@
-# ace_tools
+# ace_tools_open
 Open implementation of ace_tools referenced in GPT4o.
 
 ## Installation
 
 ```bash
-pip install -e .
+pip install ace_tools_open
 ```
 
 ## Example
@@ -22,5 +22,5 @@ data = {
 }
 
 df = pd.DataFrame(data)
-import ace_tools as tools; tools.display_dataframe_to_user(name="Random DataFrame", dataframe=df)
+import ace_tools_open as tools; tools.display_dataframe_to_user(name="Random DataFrame", dataframe=df)
 ```
