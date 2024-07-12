@@ -7,6 +7,9 @@ Open implementation of ace_tools referenced in GPT4o.
 pip install ace_tools_open
 ```
 
+## Usage
+Just copy the output of GPT4o that uses ace_tools and paste it in your code. Then replace all the `ace_tools` imports with `ace_tools_open`. The code should work as expected.
+
 ## Example
 ```python
 import pandas as pd
