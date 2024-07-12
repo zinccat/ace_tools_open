@@ -9,6 +9,9 @@ setup(
         'itables',
         'IPython',
     ],
+    extras_require={
+        'dev': ['pytest']
+    },
     description='Open implementation of ace_tools referenced in GPT4o.',
     author='ZincCat',
     author_email='zincchloride@outlook.com',

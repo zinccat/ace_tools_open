@@ -13,6 +13,7 @@ authors = [
     { name = "ZincCat", email = "zincchloride@outlook.com" }
 ]
 dependencies = ["pandas", "itables", "IPython"]
+optional-dependencies = { dev = ["pytest"] }
 
 [project.urls]
 "Homepage" = "https://github.com/zinccat/ace_tools"
