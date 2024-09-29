@@ -1,1 +1,1 @@
-from .display import display_dataframe_to_user, display_matplotlib_image_to_user
+from .display import display_dataframe_to_user, display_matplotlib_image_to_user, display_chart_to_user

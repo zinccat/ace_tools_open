@@ -53,3 +53,16 @@ def display_matplotlib_image_to_user(title: str, reason: str, exception_ids: lis
         print(f"Exceptions handled: {exception_ids}")
     
     buf.close()
+
+def display_chart_to_user(path, title, chart_type='line'):
+    # load figure from path and display
+    img = Image.open(path)
+    # check if in Jupyter notebook
+    if get_ipython() is not None and 'IPKernelApp' in get_ipython().config:
+        # disable plt.show() to avoid double display
+        plt.close()
+        from IPython.display import display
+        display(img)
+        print(f"{title}")
+    else:
+        img.show(title=title)
